@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F439B6FB25CAD8BB00AA9959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439B6FA25CAD8BB00AA9959 /* AppDelegate.swift */; };
+		F439B6FD25CAD8BB00AA9959 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439B6FC25CAD8BB00AA9959 /* SceneDelegate.swift */; };
+		F439B6FF25CAD8BB00AA9959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439B6FE25CAD8BB00AA9959 /* ViewController.swift */; };
+		F439B70225CAD8BB00AA9959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F439B70025CAD8BB00AA9959 /* Main.storyboard */; };
+		F439B70425CAD8C000AA9959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F439B70325CAD8C000AA9959 /* Assets.xcassets */; };
+		F439B70725CAD8C000AA9959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F439B70525CAD8C000AA9959 /* LaunchScreen.storyboard */; };
+		F439B71225CAD8C000AA9959 /* SignumAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439B71125CAD8C000AA9959 /* SignumAppTests.swift */; };
+		F439B71D25CAD8C000AA9959 /* SignumAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439B71C25CAD8C000AA9959 /* SignumAppUITests.swift */; };
+		F439B72E25CB177500AA9959 /* AnaSayfaVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439B72D25CB177400AA9959 /* AnaSayfaVM.swift */; };
+		F439B74825CB1A0B00AA9959 /* AramaResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439B74725CB1A0B00AA9959 /* AramaResponseModel.swift */; };
+		F439B75025CB20F000AA9959 /* DetayAramaResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439B74F25CB20F000AA9959 /* DetayAramaResponseModel.swift */; };
+		F439B75525CB21FA00AA9959 /* DetayAramaVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F439B75425CB21FA00AA9959 /* DetayAramaVM.swift */; };
+		F46833DA25CB25F200AA4964 /* DetayAramaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46833D925CB25F200AA4964 /* DetayAramaVC.swift */; };
+		F46833DF25CB260C00AA4964 /* DetayArama.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46833DE25CB260C00AA4964 /* DetayArama.storyboard */; };
+		F46833EA25CB26DA00AA4964 /* Intsantient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46833E925CB26DA00AA4964 /* Intsantient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F439B70E25CAD8C000AA9959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F439B6EF25CAD8BB00AA9959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F439B6F625CAD8BB00AA9959;
+			remoteInfo = SignumApp;
+		};
+		F439B71925CAD8C000AA9959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F439B6EF25CAD8BB00AA9959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F439B6F625CAD8BB00AA9959;
+			remoteInfo = SignumApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F439B6F725CAD8BB00AA9959 /* SignumApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignumApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F439B6FA25CAD8BB00AA9959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F439B6FC25CAD8BB00AA9959 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F439B6FE25CAD8BB00AA9959 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F439B70125CAD8BB00AA9959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F439B70325CAD8C000AA9959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F439B70625CAD8C000AA9959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F439B70825CAD8C000AA9959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F439B70D25CAD8C000AA9959 /* SignumAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignumAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F439B71125CAD8C000AA9959 /* SignumAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignumAppTests.swift; sourceTree = "<group>"; };
+		F439B71325CAD8C000AA9959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F439B71825CAD8C000AA9959 /* SignumAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignumAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F439B71C25CAD8C000AA9959 /* SignumAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignumAppUITests.swift; sourceTree = "<group>"; };
+		F439B71E25CAD8C000AA9959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F439B72D25CB177400AA9959 /* AnaSayfaVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaVM.swift; sourceTree = "<group>"; };
+		F439B74725CB1A0B00AA9959 /* AramaResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AramaResponseModel.swift; sourceTree = "<group>"; };
+		F439B74F25CB20F000AA9959 /* DetayAramaResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayAramaResponseModel.swift; sourceTree = "<group>"; };
+		F439B75425CB21FA00AA9959 /* DetayAramaVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayAramaVM.swift; sourceTree = "<group>"; };
+		F46833D925CB25F200AA4964 /* DetayAramaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayAramaVC.swift; sourceTree = "<group>"; };
+		F46833DE25CB260C00AA4964 /* DetayArama.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetayArama.storyboard; sourceTree = "<group>"; };
+		F46833E925CB26DA00AA4964 /* Intsantient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intsantient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F439B6F425CAD8BB00AA9959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F439B70A25CAD8C000AA9959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F439B71525CAD8C000AA9959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F439B6EE25CAD8BB00AA9959 = {
+			isa = PBXGroup;
+			children = (
+				F439B6F925CAD8BB00AA9959 /* SignumApp */,
+				F439B71025CAD8C000AA9959 /* SignumAppTests */,
+				F439B71B25CAD8C000AA9959 /* SignumAppUITests */,
+				F439B6F825CAD8BB00AA9959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F439B6F825CAD8BB00AA9959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F439B6F725CAD8BB00AA9959 /* SignumApp.app */,
+				F439B70D25CAD8C000AA9959 /* SignumAppTests.xctest */,
+				F439B71825CAD8C000AA9959 /* SignumAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F439B6F925CAD8BB00AA9959 /* SignumApp */ = {
+			isa = PBXGroup;
+			children = (
+				F439B6FA25CAD8BB00AA9959 /* AppDelegate.swift */,
+				F439B6FC25CAD8BB00AA9959 /* SceneDelegate.swift */,
+				F439B6FE25CAD8BB00AA9959 /* ViewController.swift */,
+				F439B70025CAD8BB00AA9959 /* Main.storyboard */,
+				F439B70325CAD8C000AA9959 /* Assets.xcassets */,
+				F439B70525CAD8C000AA9959 /* LaunchScreen.storyboard */,
+				F439B70825CAD8C000AA9959 /* Info.plist */,
+				F439B72D25CB177400AA9959 /* AnaSayfaVM.swift */,
+				F439B74725CB1A0B00AA9959 /* AramaResponseModel.swift */,
+				F439B74F25CB20F000AA9959 /* DetayAramaResponseModel.swift */,
+				F439B75425CB21FA00AA9959 /* DetayAramaVM.swift */,
+				F46833D925CB25F200AA4964 /* DetayAramaVC.swift */,
+				F46833DE25CB260C00AA4964 /* DetayArama.storyboard */,
+				F46833E925CB26DA00AA4964 /* Intsantient.swift */,
+			);
+			path = SignumApp;
+			sourceTree = "<group>";
+		};
+		F439B71025CAD8C000AA9959 /* SignumAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F439B71125CAD8C000AA9959 /* SignumAppTests.swift */,
+				F439B71325CAD8C000AA9959 /* Info.plist */,
+			);
+			path = SignumAppTests;
+			sourceTree = "<group>";
+		};
+		F439B71B25CAD8C000AA9959 /* SignumAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F439B71C25CAD8C000AA9959 /* SignumAppUITests.swift */,
+				F439B71E25CAD8C000AA9959 /* Info.plist */,
+			);
+			path = SignumAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F439B6F625CAD8BB00AA9959 /* SignumApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F439B72125CAD8C000AA9959 /* Build configuration list for PBXNativeTarget "SignumApp" */;
+			buildPhases = (
+				F439B6F325CAD8BB00AA9959 /* Sources */,
+				F439B6F425CAD8BB00AA9959 /* Frameworks */,
+				F439B6F525CAD8BB00AA9959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignumApp;
+			productName = SignumApp;
+			productReference = F439B6F725CAD8BB00AA9959 /* SignumApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F439B70C25CAD8C000AA9959 /* SignumAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F439B72425CAD8C000AA9959 /* Build configuration list for PBXNativeTarget "SignumAppTests" */;
+			buildPhases = (
+				F439B70925CAD8C000AA9959 /* Sources */,
+				F439B70A25CAD8C000AA9959 /* Frameworks */,
+				F439B70B25CAD8C000AA9959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F439B70F25CAD8C000AA9959 /* PBXTargetDependency */,
+			);
+			name = SignumAppTests;
+			productName = SignumAppTests;
+			productReference = F439B70D25CAD8C000AA9959 /* SignumAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F439B71725CAD8C000AA9959 /* SignumAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F439B72725CAD8C000AA9959 /* Build configuration list for PBXNativeTarget "SignumAppUITests" */;
+			buildPhases = (
+				F439B71425CAD8C000AA9959 /* Sources */,
+				F439B71525CAD8C000AA9959 /* Frameworks */,
+				F439B71625CAD8C000AA9959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F439B71A25CAD8C000AA9959 /* PBXTargetDependency */,
+			);
+			name = SignumAppUITests;
+			productName = SignumAppUITests;
+			productReference = F439B71825CAD8C000AA9959 /* SignumAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F439B6EF25CAD8BB00AA9959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					F439B6F625CAD8BB00AA9959 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					F439B70C25CAD8C000AA9959 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F439B6F625CAD8BB00AA9959;
+					};
+					F439B71725CAD8C000AA9959 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F439B6F625CAD8BB00AA9959;
+					};
+				};
+			};
+			buildConfigurationList = F439B6F225CAD8BB00AA9959 /* Build configuration list for PBXProject "SignumApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F439B6EE25CAD8BB00AA9959;
+			productRefGroup = F439B6F825CAD8BB00AA9959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F439B6F625CAD8BB00AA9959 /* SignumApp */,
+				F439B70C25CAD8C000AA9959 /* SignumAppTests */,
+				F439B71725CAD8C000AA9959 /* SignumAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F439B6F525CAD8BB00AA9959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F439B70725CAD8C000AA9959 /* LaunchScreen.storyboard in Resources */,
+				F46833DF25CB260C00AA4964 /* DetayArama.storyboard in Resources */,
+				F439B70425CAD8C000AA9959 /* Assets.xcassets in Resources */,
+				F439B70225CAD8BB00AA9959 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F439B70B25CAD8C000AA9959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F439B71625CAD8C000AA9959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F439B6F325CAD8BB00AA9959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F439B74825CB1A0B00AA9959 /* AramaResponseModel.swift in Sources */,
+				F46833EA25CB26DA00AA4964 /* Intsantient.swift in Sources */,
+				F439B6FF25CAD8BB00AA9959 /* ViewController.swift in Sources */,
+				F439B6FB25CAD8BB00AA9959 /* AppDelegate.swift in Sources */,
+				F439B72E25CB177500AA9959 /* AnaSayfaVM.swift in Sources */,
+				F439B6FD25CAD8BB00AA9959 /* SceneDelegate.swift in Sources */,
+				F439B75025CB20F000AA9959 /* DetayAramaResponseModel.swift in Sources */,
+				F439B75525CB21FA00AA9959 /* DetayAramaVM.swift in Sources */,
+				F46833DA25CB25F200AA4964 /* DetayAramaVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F439B70925CAD8C000AA9959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F439B71225CAD8C000AA9959 /* SignumAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F439B71425CAD8C000AA9959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F439B71D25CAD8C000AA9959 /* SignumAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F439B70F25CAD8C000AA9959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F439B6F625CAD8BB00AA9959 /* SignumApp */;
+			targetProxy = F439B70E25CAD8C000AA9959 /* PBXContainerItemProxy */;
+		};
+		F439B71A25CAD8C000AA9959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F439B6F625CAD8BB00AA9959 /* SignumApp */;
+			targetProxy = F439B71925CAD8C000AA9959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F439B70025CAD8BB00AA9959 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F439B70125CAD8BB00AA9959 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F439B70525CAD8C000AA9959 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F439B70625CAD8C000AA9959 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F439B71F25CAD8C000AA9959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F439B72025CAD8C000AA9959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F439B72225CAD8C000AA9959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUBBCB62N3;
+				INFOPLIST_FILE = SignumApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sndstudio.SignumApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F439B72325CAD8C000AA9959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUBBCB62N3;
+				INFOPLIST_FILE = SignumApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sndstudio.SignumApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F439B72525CAD8C000AA9959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUBBCB62N3;
+				INFOPLIST_FILE = SignumAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sndstudio.SignumAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignumApp.app/SignumApp";
+			};
+			name = Debug;
+		};
+		F439B72625CAD8C000AA9959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUBBCB62N3;
+				INFOPLIST_FILE = SignumAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sndstudio.SignumAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignumApp.app/SignumApp";
+			};
+			name = Release;
+		};
+		F439B72825CAD8C000AA9959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUBBCB62N3;
+				INFOPLIST_FILE = SignumAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sndstudio.SignumAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignumApp;
+			};
+			name = Debug;
+		};
+		F439B72925CAD8C000AA9959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUBBCB62N3;
+				INFOPLIST_FILE = SignumAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sndstudio.SignumAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignumApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F439B6F225CAD8BB00AA9959 /* Build configuration list for PBXProject "SignumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F439B71F25CAD8C000AA9959 /* Debug */,
+				F439B72025CAD8C000AA9959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F439B72125CAD8C000AA9959 /* Build configuration list for PBXNativeTarget "SignumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F439B72225CAD8C000AA9959 /* Debug */,
+				F439B72325CAD8C000AA9959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F439B72425CAD8C000AA9959 /* Build configuration list for PBXNativeTarget "SignumAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F439B72525CAD8C000AA9959 /* Debug */,
+				F439B72625CAD8C000AA9959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F439B72725CAD8C000AA9959 /* Build configuration list for PBXNativeTarget "SignumAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F439B72825CAD8C000AA9959 /* Debug */,
+				F439B72925CAD8C000AA9959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F439B6EF25CAD8BB00AA9959 /* Project object */;
+}
